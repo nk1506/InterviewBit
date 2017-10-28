@@ -1,0 +1,5 @@
+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(±­ä©
+‰"squid:ClassVariableVisibilityCheck"QMake right a static final constant or non-public and provide accessors if needed.(ë™Ùµøÿÿÿÿ8„ëðµÛ+
+ƒ"squid:ClassVariableVisibilityCheck"PMake left a static final constant or non-public and provide accessors if needed.(ŠËÌç8ŸÓðµÛ+
+‚"squid:ClassVariableVisibilityCheck"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ8ðÜû¨Ü+

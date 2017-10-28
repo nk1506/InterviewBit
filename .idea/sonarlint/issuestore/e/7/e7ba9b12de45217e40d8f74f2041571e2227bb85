@@ -1,0 +1,11 @@
+
+Bsquid:S1481"&Remove this unused "l" local variable.(¯Ü™ù8ƒ¶¾Îß+
+Gsquid:S1481"&Remove this unused "d" local variable.(ËÌÂ´ùÿÿÿÿ8ƒ¶¾Îß+
+Ysquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8îÕŽÏß+
+`squid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8Ï¬ŽÏß+
+Vsquid:S1854"5Remove this useless assignment to local variable "d".(ËÌÂ´ùÿÿÿÿ8ƒ¶¾Îß+
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8îÕŽÏß+
+Ysquid:S1197"8Move the array designator from the variable to the type.(®î›çûÿÿÿÿ8©ˆ¸Îß+
+_squid:UselessImportCheck"1Remove this unused import 'java.util.Collection'.(¹ÉÐšùÿÿÿÿ8¾üŒÏß+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(þŽš±
+Qsquid:S1854"5Remove this useless assignment to local variable "l".(¯Ü™ù8ƒ¶¾Îß+

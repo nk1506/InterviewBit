@@ -1,0 +1,4 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í…Â‡8¹î¼þÛ+
+Ysquid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8áóšìÛ+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(…žË¾úÿÿÿÿ

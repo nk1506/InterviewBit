@@ -1,0 +1,5 @@
+
+lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Êå¿Ú8Ò†ƒ×Û+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(±­ä©
+qsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÆÈ–Žÿÿÿÿÿ8¼Äƒ×Û+
+‘squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Æ¥°×ûÿÿÿÿ8Â¤úÖÛ+
