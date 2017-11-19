@@ -5,6 +5,8 @@ import com.naveen.interviewBit.maths.FindDuplicate;
 import com.naveen.interviewBit.maths.GCD;
 import com.naveen.interviewBit.strings.StringPermutation;
 import com.naveen.interviewBit.stuff.LRUCache;
+import com.naveen.interviewBit.stuff.ThreadCr;
+import com.naveen.interviewBit.stuff.ThreadExampl;
 import com.naveen.interviewBit.tree.InorderTraversal;
 import com.naveen.interviewBit.tree.PostOrderTraversal;
 import com.naveen.interviewBit.tree.PreOrderTraversal;
@@ -19,13 +21,13 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        TreeNode treeNode = new TreeNode(1);
+        /*TreeNode treeNode = new TreeNode(1);
         treeNode.left = new TreeNode(2);
         treeNode.right = new TreeNode(3);
         treeNode.right.left = new TreeNode(6);
         treeNode.right.right = new TreeNode(7);
         treeNode.left.left = new TreeNode(4);
-        treeNode.left.right = new TreeNode(5);
+        treeNode.left.right = new TreeNode(5);*/
         /*
         *    1
         *  2   3
@@ -69,7 +71,7 @@ public class Main {
         DFS dfs = new DFS(4,graph);
         dfs.dfsTraverse(1);*/
         //6 2 S 2 1 S 1 1 S 2 3 S 4 1 G 1 G 2
-        LRUCache lruCache = new LRUCache(2);
+        /*LRUCache lruCache = new LRUCache(2);
         //lruCache.getInt(1);
         lruCache.setKey(2,1);
         lruCache.setKey(1,1);
@@ -79,6 +81,24 @@ public class Main {
         //lruCache.setKey(3,2);
         int r2 = lruCache.getInt(2);
         //int r3 = lruCache.getInt(3);
+        List<Object> list = new ArrayList<>();
+        list.add(1);
+        list.add("a");*/
+        ThreadCr threadCr = new ThreadCr();
+        threadCr.start();
+
+        ThreadCr threadCr2 = new ThreadCr();
+
+        threadCr2.start();
+        System.out.println("FInished !");
+
+        /*ThreadExampl exampl = new ThreadExampl();
+        Thread ex=new Thread(exampl);
+        ex.start();
+        Thread ex2 = new Thread(exampl);
+        ex2.start();*/
+
+
 
         return;
     }

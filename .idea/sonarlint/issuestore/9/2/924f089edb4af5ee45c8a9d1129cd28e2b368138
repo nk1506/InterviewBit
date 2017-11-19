@@ -1,20 +1,18 @@
 
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âù Ãøÿÿÿÿ8Ö¾îºÛ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(· É«8üøš÷ß+
-Hsquid:S1481"'Remove this unused "r2" local variable.(Ÿä§Øýÿÿÿÿ8Ê†÷ß+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŒÜ›©üÿÿÿÿ8ÔÁ’ßÛ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¤þÆšûÿÿÿÿ8¡¨’ßÛ+
 gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØÊÈË8õ¿àöß+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(«Á“Ë8éÄ´÷ß+
-Wsquid:S1854"6Remove this useless assignment to local variable "r2".(Ÿä§Øýÿÿÿÿ8Ê†÷ß+
 lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ù–™Çÿÿÿÿÿ8¹ÌåÎß+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿøô’8¡¨’ßÛ+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŒÜ›©üÿÿÿÿ8ÔÁ’ßÛ+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸¹¡®ÿÿÿÿÿ8¤ûÃêÜ+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ï­æ‘8´÷Ï‡ù+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ü—ÓÖøÿÿÿÿ8ÖÖéÜ+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹„©ª8ð¼˜ãø+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê°¬†þÿÿÿÿ8¶ˆ˜ãø+
 Y
 squid:S106"9Replace this use of System.out or System.err by a logger.(Ž½Ž¦ÿÿÿÿÿ8ü”¯´Û+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿøô’8¡¨’ßÛ+
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÐÕÖ¿8—°´÷ß+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(âù Ãøÿÿÿÿ8Ö¾îºÛ+
 gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(”Àï8©²‹Çß+
-Csquid:S1481"'Remove this unused "r1" local variable.(ŽÁ£•8©Õœ÷ß+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÙâÏÇ8³ëÊ‡ù+
 8squid:S1220""Move this file to a named package.8í˜¶Û+
-Rsquid:S1854"6Remove this useless assignment to local variable "r1".(ŽÁ£•8ö¨œ÷ß+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ü—ÓÖøÿÿÿÿ8ÖÖéÜ+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸¹¡®ÿÿÿÿÿ8¤ûÃêÜ+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¤þÆšûÿÿÿÿ8¡¨’ßÛ+

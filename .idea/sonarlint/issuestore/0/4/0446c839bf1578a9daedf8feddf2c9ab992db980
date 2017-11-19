@@ -1,9 +1,9 @@
 
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ό–τύÿÿÿÿ8Ιΐ£νί+
 S
 squid:S106"9Replace this use of System.out or System.err by a logger.(Α°ΚT8ήνί+
 squid:S1319"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(Ζ‚·8Σ’ΐνί+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨³γ―
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ό–τύÿÿÿÿ8Ιΐ£νί+
 Y
 squid:S106"9Replace this use of System.out or System.err by a logger.(ªΣΌαώÿÿÿÿ8βϋ¤νί+
-msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨³γ―

@@ -24,3 +24,5 @@
 hs_err_pid*
 
 /src/com/naveen/interviewBit/stuff/
+/.idea/
+/out/
