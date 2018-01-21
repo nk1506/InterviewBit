@@ -1,9 +1,13 @@
 package com.naveen.interviewBit.tree;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
+import java.util.Set;
+import java.util.Stack;
 import java.util.TreeMap;
 
 
@@ -28,6 +32,42 @@ public class VerticalTraversal {
         }
         map.forEach((integer, integers) -> result.add(integers));
         return result;
+    }
+    public ArrayList<ArrayList<Integer>> QueueVerticalOrderTraversal(TreeNode A) {
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        Map<TreeNode, Integer> info = new HashMap<>();
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(A);
+        info.put(A,0);
+
+
+        while(!q.isEmpty()) {
+            TreeNode t = q.poll();
+            int x = info.get(t);
+            if(t.left != null) {
+                info.put(t.left,x-1);
+                q.add(t.left);
+            }
+            if(t.right != null) {
+                info.put(t.right,x+1);
+                q.add(t.right);
+            }
+
+            ArrayList<Integer> d = map.get(x);
+            if ( d == null) {
+                d = new ArrayList<Integer>();
+            }
+            d.add(t.val);
+            map.put(x,d);
+        }
+
+        Set<Integer> set = map.keySet();
+        for (Integer i: set) {
+
+        }
+
+        return res;
+
     }
     private void recursive(TreeNode a, TreeNode b, int hd) {
         if (a == null) return;

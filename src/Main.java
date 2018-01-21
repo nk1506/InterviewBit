@@ -13,9 +13,11 @@ import com.naveen.interviewBit.tree.PreOrderTraversal;
 import com.naveen.interviewBit.tree.TreeNode;
 import com.naveen.interviewBit.tree.VerticalTraversal;
 import com.naveen.interviewBit.tree.ZigZagLevelTraverse;
+import javafx.util.Pair;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -84,13 +86,40 @@ public class Main {
         List<Object> list = new ArrayList<>();
         list.add(1);
         list.add("a");*/
-        ThreadCr threadCr = new ThreadCr();
+        /*ThreadCr threadCr = new ThreadCr();
         threadCr.start();
 
         ThreadCr threadCr2 = new ThreadCr();
 
         threadCr2.start();
-        System.out.println("FInished !");
+        System.out.println("FInished !");*/
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        ArrayList<Pair<Integer,Integer>> list = new ArrayList<Pair<Integer,Integer>>();
+        for (int i =0; i<n;i++)
+        {
+            int a= sc.nextInt();
+            int b= sc.nextInt();
+
+            list.add(new Pair<Integer,Integer>(a,b));
+
+        }
+        ArrayList<Integer> list2 = new ArrayList<>();
+
+        for (int i =0; i<n; i++) {
+            list2.add(list.get(i).getKey()-list.get(i).getValue());
+        }
+        int s = 0; int k = 0;
+        for (int i =0;i<n;i++) {
+            s+= list2.get(i);
+            if(s<0) {
+                s = 0;
+                k = i+1;
+            }
+        }
+        System.out.println(k);
+
 
         /*ThreadExampl exampl = new ThreadExampl();
         Thread ex=new Thread(exampl);
